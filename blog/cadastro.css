@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    background-color: gray;
+    background-size: 100%;
+  }
+  
+   
+  
+  header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(128, 0, 128);
+    height: 15vh;
+    color: white;
+  }
+
+  .subtitulos>a{
+    text-decoration: none;
+}
+  
+  .cabeçalho{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+   
+  
+  #logo{
+    height: 150px;
+    width: 150px;
+  }
+  
+   
+  
+  #casa{
+    height: 180px;
+    width: 320px;
+    /* margin-left: 600px; */
+  } 
+  
+  .barra-pesquisa{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+    display: flex;
+}
+
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    height: 7px;
+    width: 350px;
+}
+
+
+#pesquisar{
+    margin-top: 70px;
+    width: 45vw;
+    height: 35px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 30vh;
+}
+  
+   
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+   
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+   
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+   
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .subtitulos{
+    font-size: 20px;
+    color: white;
+    font-family: 'Aleo', serif;
+    margin-left: -100x;
+}
+
+#jornal{
+    height: 80px;
+    width: 120px;
+}

@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: grey;
+   background-size: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    height: 15vh;
+    color: white;
+}
+
+header>img{
+    height: 20vh;
+    width: 20vh;
+}
+
+.subtitulos>a{
+    text-decoration: none;
+}
+
+.subtitulos>a>p{
+    color: white;
+}
+
+.barra-pesquisa{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+    display: flex;
+}
+
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 16px;
+    border: none;
+    height: 25px;
+    width: 550px;
+}
+
+.PI{
+    height: 170px;
+    width: 170px;
+    margin-right: 90vw;
+    display: flex;
+    margin-top: 25px;
+}
+
+#pesquisar{
+    margin-top: 70px;
+    width: 45vw;
+    height: 35px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 30vh;
+}
+
+
+#casa{
+    height: 180px;
+    width: 320px;
+}
+
+#jornal{
+    height: 80px;
+    width: 120px;
+}
+
+.subtitulos{
+    font-size: 20px;
+    color: white;
+    font-family: 'Aleo', serif;
+}
+
+section{
+    padding: 50px;
+}
+
+.noticias{
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+.noticias>h1{
+    font-size: 30px;
+    padding-bottom: 35px;
+}

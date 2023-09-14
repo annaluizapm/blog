@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: grey;
+   background-size: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    height: 15vh;
+    color: white;
+}
+
+header>img{
+    height: 20vh;
+    width: 20vh;
+}
+
+.subtitulos>a{
+    text-decoration: none;
+}
+
+.subtitulos>a>p{
+    color: white;
+}
+
+.barra-pesquisa{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+    display: flex;
+}
+
+#txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 16px;
+    border: none;
+    height: 25px;
+    width: 550px;
+}
+
+#pesquisar{
+    margin-top: 70px;
+    width: 45vw;
+    height: 35px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 30vh;
+}
+
+
+#jornal{
+   height: 80px;
+   width: 120px;
+}
+ 
+#fundoroxo{
+    background-color: blueviolet;
+    width: 150vh;
+    height: 100vh;
+}
+ 
+#barra{
+    height: 160px;
+    width: 160px;
+    margin-right: 100vw;
+    display: flex;
+    margin-left: 20px;
+}
+ 
+.titulocadastro{
+    padding: 100px;
+}
+ 
+.titulocadastro>h2{
+    padding-top: 20px;
+}
+ 
+section{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.posts>h6{
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 1px 1px 1px black;
+}
+ 
+.posts>p{
+    background-color: darkgrey;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+ 
+h1{
+    font-size: 50px;
+    text-shadow: 3px 3px 3px purple;
+    justify-content: center;
+    text-align: center;  
+    font-family: 'Aleo', serif;
+}
+
+.subtitulos{
+    font-size: 20px;
+    color: white;
+    font-family: 'Aleo', serif;
+}
+
+.fotos{
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px black;
+    transition-property: transform;
+    transition-duration: 2s;
+    width: 450px;
+    height: 450px;
+}
+
+.fotos:hover{
+    transform: scale(1.20);
+    background-color: transparent;
+}
+
+.fotos1{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.fotos2{
+    display: flex;
+    gap: 50px;
+}
